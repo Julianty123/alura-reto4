@@ -1,0 +1,342 @@
+/*------------- Cabecera ------------*/
+
+body {
+    background: #f5f5f5;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    width: 80%;
+
+    margin: auto;
+}
+
+.cabecera {
+    background-color: #fff;
+}
+
+.cabecera__area {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.cabecera__logo {
+    
+}
+
+.cabecera__busqueda { 
+    background-color: #f5f5f5;    
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+.cabecera__input {
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;        
+}
+
+.cabecera__busqueda-icono {
+    color: #a2a2a2;
+    cursor: pointer;
+}
+
+.cabecera__login {
+    cursor: pointer;
+}
+
+.cabecera__login-icon {
+
+}
+
+.cabecera__boton {
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    padding: 10px 35px;
+    text-decoration: none;
+}
+
+.cabecera__boton:hover {
+    background-color: #eaf2fd;
+}
+
+
+/*--------------- Agregar producto --------------*/
+
+
+section {
+    background-color: #e5e5e5;
+}
+
+.formulario3 { 
+    width: 600px;
+    margin: 0 auto;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.formulario3__titulo {
+    margin-bottom: 15px;
+}
+
+.formulario3__input {
+    display: block;    
+}
+
+.entrada {
+    display: block;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+    font-size: .9em;
+    border: none;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, .1);
+}
+
+.formulario3__boton--link {
+    width: 330px;
+    background: #2a7ae4;
+    color: #fff;
+    border: none;
+    padding: 13px 0;
+    margin-top: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.formulario3__boton {
+    background: transparent;
+    color: #fff;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.entrada:focus {
+    outline: none;
+}
+
+.formulario3__descripcionProducto {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    margin: 10px;
+    font-size: .9em;
+    border: none;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, .1);
+}
+
+
+
+/*--------------Rodapie-------------*/
+
+
+
+footer {
+    background: #eaf2fd;
+}
+
+.rodapie {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.rodapie__marco {
+    width: 20%;
+    margin-top: 5px;
+}
+
+.rodapie__logo {
+    width: 150px;
+}
+
+.rodapie__mapa {
+    width: 20%;
+}
+
+.rodapie__mapa--lista {
+    list-style-type: none;
+}
+
+.rodapie__mapa--item {
+    padding-bottom: 20px;
+}
+
+.rodapie__mapa--link {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #464646;
+}
+
+.rodapie__formulario {
+    width: 50%;
+}
+
+legend {
+    font-weight: bold;
+    color: #464646;
+    margin-top: 15px;
+}
+
+.rodapie__formulario--input {
+    margin: 5px 0;
+    font-size: 0.8rem;
+    padding: 5px 5px;
+    width: 95%;
+    height: 30px;
+    border: none;
+}
+
+.rodapie__formulario--mensaje {
+    display: block;
+    margin: 5px 0;
+    font-size: 0.8rem;
+    padding: 5px 5px;
+    height: 70px;
+    width: 95%;
+    border: none;
+}
+
+.rodapie__formulario--input:focus, .rodapie__formulario--mensaje:focus {
+    outline: none;
+}
+
+.rodapie__formulario--btn {
+    background: #2a7ae4;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 0.8rem;
+    padding: 15px;
+    border: none;    
+}
+
+.rodapie__base {
+    background: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.rodapie__base--legend {
+    margin: 5px 0;
+    color: #464646;
+}
+
+/*-----------Responsive-------------*/
+
+
+@media (max-width: 720px) {
+
+    .container {
+        width: 90%;
+    }
+
+    .cabecera__area {
+        
+    }
+
+    .cabecera__busqueda {
+        padding: 10px;
+        background: #f5f5f5;  
+        
+    }
+
+    .cabecera__logo {
+        width: 130px;
+    }
+
+    .cabecera__input {
+
+        font-size: .9em;
+        width: 150px;
+    }
+
+    .cabecera__busqueda-icono {
+        
+        font-size: .9em;
+    }
+
+    .formulario3 {
+        width: 100%;
+    }
+
+    .slider {
+        height: 300px;
+    }
+
+    .rodapie {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodapie__marco { 
+        justify-content: center;
+        
+    }
+
+    .rodapie__logo { 
+        
+    }
+
+    .rodapie__mapa {
+        width: 100%;
+        text-align: center;
+    }
+
+    .rodapie__formulario {
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+
+    .cabecera__busqueda {
+        background: transparent;
+        order: 1;
+    }
+
+    .cabecera__input {
+        display: none;
+    }
+
+    .cabecera__logo {
+       
+    }
+
+    .cabecera__boton {
+        padding: 8px 24px;
+    }
+
+    .slider {
+        height: 180px;
+    }
+
+    .slider__contenido {
+        bottom: 20px;
+    }
+
+    .slider__titulo {
+        font-size: 1.8em;
+    }
+
+    .slider__parrafo {
+        font-size: 1em;
+    }
+
+    .slider__link {
+        padding: 8px 12px;
+    }
+
+}

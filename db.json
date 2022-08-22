@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "url": "./img/mug.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 2,
+      "url": "./img/head.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 3,
+      "url": "./img/yoda-yellow.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 4,
+      "url": "./img/soldado.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 5,
+      "url": "./img/chibi-yoda.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 6,
+      "url": "./img/dark.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 7,
+      "url": "./img/xbox_controller.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 8,
+      "url": "./img/ps5.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 9,
+      "url": "./img/consola_nintendo.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 10,
+      "url": "./img/nintendo_wii.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 11,
+      "url": "./img/consola_xbox.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 12,
+      "url": "./img/gameboy.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 13,
+      "url": "./img/camiseta_atari.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 14,
+      "url": "./img/consola_nintendo.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 15,
+      "url": "./img/sonic.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 16,
+      "url": "./img/reloj_retro.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 17,
+      "url": "./img/virtual_helmet.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    },
+    {
+      "id": 18,
+      "url": "./img/pikachu.png",
+      "categoria": "Categoria",
+      "nombre": "Producto XYZ",
+      "precio": "$60.00",
+      "descripcion": "Descripción"
+    }
+  ]
+}
